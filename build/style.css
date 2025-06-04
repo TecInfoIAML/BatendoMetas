@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', sans-serif; /* Define a fonte padrão para o corpo da página */
+    background: #f4f4f9; /* Cor de fundo clara para a página */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o preenchimento padrão do body */
+    background-image: url("/static/funcionario.jpg"); /* Define uma imagem de fundo */
+    background-size: 100%; /* Faz com que a imagem de fundo cubra 100% do tamanho do elemento */
+}
+
+.container {
+    max-width: 500px; /* Define a largura máxima do contêiner para 500px */
+    margin: 40px auto; /* Centraliza o contêiner horizontalmente e adiciona uma margem superior e inferior de 40px */
+    padding: 30px; /* Adiciona um preenchimento interno de 30px */
+    background: white; /* Cor de fundo branca para o contêiner */
+    border-radius: 12px; /* Cantos arredondados com raio de 12px */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra leve ao redor do contêiner */
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto do título */
+    color: #333; /* Define a cor do texto como um cinza escuro */
+}
+
+form {
+    display: flex; /* Utiliza o modelo de layout flexbox */
+    flex-direction: column; /* Organiza os elementos filhos (inputs e botões) em coluna */
+}
+
+input, button {
+    margin: 10px 0; /* Margem superior e inferior de 10px entre os elementos */
+    padding: 10px; /* Preenchimento interno de 10px */
+    font-size: 16px; /* Tamanho da fonte de 16px */
+}
+
+button, .botao-secundario {
+    background-color: #007BFF; /* Cor de fundo azul padrão para os botões */
+    color: white; /* Cor do texto branca */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Cursor de "mãozinha" ao passar o mouse */
+    border-radius: 8px; /* Cantos arredondados com 8px */
+    text-align: center; /* Centraliza o texto no botão */
+    text-decoration: none; /* Remove sublinhado de links (caso .botao-secundario seja usado como <a>) */
+}
+
+button:hover, .botao-secundario:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura quando o botão é "hoverado" (passa o mouse por cima) */
+}
+
+table {
+    width: 100%; /* A tabela ocupará 100% da largura disponível */
+    border-collapse: collapse; /* Remove os espaços entre as bordas das células */
+    margin-top: 20px; /* Adiciona margem superior de 20px */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Aplica borda cinza clara à tabela, cabeçalhos e células */
+}
+
+th, td {
+    padding: 10px; /* Espaçamento interno de 10px nas células */
+    text-align: center; /* Centraliza o texto dentro das células */
+}
+
+.botao-secundario {
+    display: inline-block; /* Permite que o botão se comporte como elemento inline, mas com controle de dimensões */
+    padding: 10px; /* Espaçamento interno de 10px */
+    text-align: center; /* Centraliza o texto */
+    width: 96%; /* Define a largura do botão como 96% do seu elemento pai */
+}
