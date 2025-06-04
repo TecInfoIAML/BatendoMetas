@@ -3,7 +3,7 @@ body {
     background: #f4f4f9; /* Cor de fundo clara para a página */
     margin: 0; /* Remove a margem padrão do body */
     padding: 0; /* Remove o preenchimento padrão do body */
-    background-image: url("/static/funcionario.jpg"); /* Define uma imagem de fundo */
+    background-image: url("funcionario.jpg"); /* Define uma imagem de fundo */
     background-size: 100%; /* Faz com que a imagem de fundo cubra 100% do tamanho do elemento */
 }
 
